@@ -1,0 +1,35 @@
+@import "_header";
+
+h1 {
+	color: green;
+}
+
+body {
+	font-size: 20px;
+
+	div {
+		font-size: 20px;
+	}
+}
+.block {
+
+	&__item {
+	}
+	&__ {
+	}
+}
+.block {
+}
+.block__item {
+}
+.block__ {
+}
+.red{
+	color: red;
+	background-color: #fff;
+}
+@media (max-width: 767px) {
+	.red{
+		border: 0;
+	}
+}
